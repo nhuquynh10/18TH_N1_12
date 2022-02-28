@@ -43,9 +43,9 @@ namespace WindowsFormsApp1
             this.label1.Location = new System.Drawing.Point(69, 91);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 32);
+            this.label1.Size = new System.Drawing.Size(168, 32);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Username";
+            this.label1.Text = "Username 1";
             // 
             // label2
             // 
@@ -54,9 +54,9 @@ namespace WindowsFormsApp1
             this.label2.Location = new System.Drawing.Point(69, 184);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 32);
+            this.label2.Size = new System.Drawing.Size(162, 32);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Password";
+            this.label2.Text = "Password 1";
             // 
             // txtUser
             // 
@@ -96,7 +96,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
