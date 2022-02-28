@@ -26,5 +26,10 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Đăng nhập thành công");
             }
         }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
