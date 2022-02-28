@@ -16,5 +16,20 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string user = txtUser.Text;
+            string pass = txtPass.Text;
+            if(user == "admin" && pass == "admin")
+            {
+                MessageBox.Show("Đăng nhập thành công");
+            }
+        }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
